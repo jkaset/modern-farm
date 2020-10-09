@@ -1,15 +1,16 @@
 let plants = []
 
-export const addPlant = () => {
+export const addPlant = (seed) => {
   const plantObject = [];
-  for (let i = 0; i < plants.length; i++) {
-    
-    addPlant.push(plantObject)
-  }
-  return addPlant
+  return plantObject.push(seed)
+  
 }
 
-export const usePlants = () => {
-  return p
-}
 
+
+// Jayna's code//
+// const fieldPlants = []
+// export const addPlant = (seedObj) => {
+//   return fieldPlants.push(seedObj)
+// }
+// addPlant{corn}
