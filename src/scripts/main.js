@@ -20,6 +20,7 @@
 // console.log(cornSeed)
 
 import { addPlant } from './field.js'
-
-const tryAdd = addPlant()
+import { createAsparagus } from './seeds/asparagus.js'
+const seed = createAsparagus()
+const tryAdd = addPlant(seed)
 console.log(tryAdd)

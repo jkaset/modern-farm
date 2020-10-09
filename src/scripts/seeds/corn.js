@@ -1,7 +1,7 @@
 export const createCorn = () => { 
   
   let cornArray = [] 
-  for (let i = 0; i < 1; i++) {
+  for (i = 0; i < 2; i++) {
   let seed = {}
   seed.type = "corn";
   seed.height = 180
