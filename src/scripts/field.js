@@ -11,9 +11,3 @@ export const usePlants = () => {
 }
 
 
-// Jayna's code//
-// const fieldPlants = []
-// export const addPlant = (seedObj) => {
-//   return fieldPlants.push(seedObj)
-// }
-// addPlant{corn}
