@@ -1,9 +1,8 @@
 let plants = []
 
 export const addPlant = (seed) => {
-  const plantObject = [];
-  return plantObject.push(seed)
-  
+  plants.push(seed)
+  return plants
 }
 
 export const usePlants = () => {
