@@ -1,12 +1,17 @@
+
 export const plantSeeds = (yearlyPlan) => {
-  for (const row of yearlyPlan) {
+ for (const row of yearlyPlan) {
     for (const plot of row) {
       if (plot.type === "asparagus") {
-        return createAsparagus();
+        
+        return createAsparagus()
+      }
+      if (plot.type === "potato") {
+        return createPotato()
       }
     }
   }
-
+  return yearlyPlan.push(plot)
 }
 
 

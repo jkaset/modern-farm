@@ -26,4 +26,7 @@
 // console.log(tryAdd)
 
 import { plantSeeds } from "./tractor.js"
-plantSeeds()
+import { addPlant } from "./field.js"
+const rows = plantSeeds()
+const tryPush = addPlant(rows)
+console.log(tryPush)
