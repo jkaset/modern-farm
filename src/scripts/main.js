@@ -19,8 +19,11 @@
 // const cornSeed = createCorn()
 // console.log(cornSeed)
 
-import { addPlant } from './field.js'
-import { createAsparagus } from './seeds/asparagus.js'
-const seed = createAsparagus()
-const tryAdd = addPlant(seed)
-console.log(tryAdd)
+// import { addPlant } from './field.js'
+// import { createAsparagus } from './seeds/asparagus.js'
+// const seed = createAsparagus()
+// const tryAdd = addPlant(seed)
+// console.log(tryAdd)
+
+import { plantSeeds } from "./tractor.js"
+plantSeeds()
