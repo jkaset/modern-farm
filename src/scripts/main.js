@@ -24,9 +24,12 @@
 // const seed = createAsparagus()
 // const tryAdd = addPlant(seed)
 // console.log(tryAdd)
+import { createPlan } from './plan.js' 
+const yearlyPlan = createPlan()
+
+plantSeeds(yearlyPlan)
+const planToPlantSeeds = usePlants()
 
 import { plantSeeds } from "./tractor.js"
-import { addPlant } from "./field.js"
-const rows = plantSeeds()
-const tryPush = addPlant(rows)
-console.log(tryPush)
+import { usePlants } from "./field.js"
+
