@@ -1,20 +1,27 @@
+import { addPlant } from "./field"
 
 export const plantSeeds = (yearlyPlan) => {
- for (const row of yearlyPlan) {
-    for (const plot of row) {
-      if (plot.type === "asparagus") {
-        
-        return createAsparagus()
+  //console.log(yearlyPlan)
+  for (const plan of yearlyPlan) {
+    plan.forEach(veggie) 
+      if (veggie === "asparagus") {
+        const seedAsparagus = createAsparagus()
+        addPlant(seedAsparagus)
+        console.log(veggie)
       }
-      if (plot.type === "potato") {
-        return createPotato()
+      else if (veggie=== "potato") {
+        const seedPotato = createPotato()
+        addPlant(seedPotato)
       }
-    }
+     
+  
   }
-  return yearlyPlan.push(plot)
-}
+  }
+
+
 
 
 
 //let thisSeed = yearlyPlan[i][j]
 // import { createAsparagus } from "./seeds/asparagus"
+
